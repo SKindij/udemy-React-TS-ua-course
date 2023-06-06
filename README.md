@@ -20,7 +20,12 @@ It consists of two major parts:
 - - -
 
 ### mastering-react
+
 Available commands:
   * ``cd mastering-react``
   * ``npm run dev``
+
+Add Dependencies:
+  + ``npm i vite-tsconfig-paths``
+    - _Give vite ability to resolve imports using TypeScript's path mapping_
 
