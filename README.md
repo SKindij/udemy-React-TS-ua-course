@@ -4,8 +4,8 @@
 _Get ready for a development environment that can finally catch up with you._
 
 It consists of two major parts:
-* A dev server that provides rich feature enhancements over native ES modules, for example extremely fast Hot Module Replacement (HMR).
-* A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
+* dev server that provides rich feature enhancements over native ES modules;
+* build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
 
 > 1. install Vite globally by running following command:\
 >  &emsp; &emsp;``npm install -g create-vite``
