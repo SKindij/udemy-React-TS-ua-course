@@ -14,7 +14,13 @@ It consists of two major parts:
 >  _this  will create new folder called "mastering-react" with initial Vite project structure_
 > 3. navigate to the newly created project folder:\
 >  &emsp; &emsp;``cd mastering-react``
-> 4. then we execute such commands:\
->   &emsp; &emsp;``npm install`` and ``npm run dev``
+> 4. then execute such command:\
+>   &emsp; &emsp;``npm install``.
 
+- - -
+
+### mastering-react
+Available commands:
+  * ``cd mastering-react``
+  * ``npm run dev``
 
