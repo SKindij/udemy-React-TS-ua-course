@@ -1,6 +1,6 @@
 # udemy-React-ua-course
 
-## Vite - Next Generation Frontend Tooling
+## [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 _Get ready for a development environment that can finally catch up with you._
 
 > _Typically, you might create a new project using Create React App, but it can take a lot of time to install over 140 MB of dependencies. Vite is a lightweight tool that takes up 31 MB of dependencies, which will save time in starting a new project. Vite also uses the browser-native ES (ECMAScript) modules for linking to JavaScript files, which doesn’t rebuild the entire bundle after each file change. These differences result in a faster experience when creating, updating, and building a React App with Vite._
@@ -14,7 +14,7 @@ It consists of two major parts:
      - `? Project name:   » vite-project`
      - `? Select a framework:   » React`
      - `? Select a variant:    » JavaScript`
-  * in package.json
+  * in package.json we have:
     - ```javascript
         {
           "name": "vite-project",
@@ -22,10 +22,10 @@ It consists of two major parts:
           "version": "0.0.0",
           "type": "module",
           "scripts": {
-            "dev": "vite",
-            "build": "vite build",
+            "dev": "vite",    // start dev server, aliases: `vite dev`, `vite serve`
+            "build": "vite build",  // build for production
             "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-            "preview": "vite preview"
+            "preview": "vite preview"    // locally preview production build
           },
           "dependencies": {
             "react": "^18.2.0",
@@ -43,10 +43,10 @@ It consists of two major parts:
           }
         }
       ```
-
-
-
-
+  * Navigate to your project folder:
+    - ``cd vite-project``
+  * then execute such command:
+    - ``npm install``.
 
 - - -
 
