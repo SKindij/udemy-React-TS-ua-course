@@ -47,10 +47,21 @@ It consists of two major parts:
     - ``cd vite-project``
   * then execute such command:
     - ``npm install``.
+  * ``npm run dev``
+    - you will receive the following output:\
+       `VITE v4.3.9 ready`\
+       `➜ Local: http://localhost:5173/`\
+       `➜ Network: use --host to expose`\
+       `➜ press h to show help`
+
+#### To run app in your local network
+  + you have to stop the current server first => use `CTRL+C`
+  + next, to run your project, => use `npm run dev --host`
 
 - - -
 
 ### udemy-project
+
 > 1. install Vite globally by running following command:\
 >  &emsp; &emsp;``npm install -g create-vite``
 > 2. run following command to create new Vite project with React and TypeScript:\
@@ -68,7 +79,7 @@ It consists of two major parts:
 Available commands:
   * ``cd mastering-react``
   * ``npm run dev``
-
+  * 
 Add Dependencies:
   + ``npm i vite-tsconfig-paths``
     - _Give vite ability to resolve imports using TypeScript's path mapping_
