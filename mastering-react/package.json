@@ -2,16 +2,20 @@
   "name": "mastering-react",
   "description": "Udemy course to learn web devolpment with React",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "storybook": "start-storybook -p 6006",
+    "storybook:node18": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "storybook:build": "build-storybook"
   },
   "dependencies": {
+    "@rematch/core": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2"
