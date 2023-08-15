@@ -2,7 +2,7 @@
   "name": "mastering-react",
   "description": "Udemy course to learn web devolpment with React",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@babel/core": "^7.22.10",
     "@storybook/addon-actions": "^7.3.0",
+    "@storybook/addon-essentials": "^7.3.0",
     "@storybook/builder-vite": "^7.2.3",
     "@storybook/react": "^7.2.3",
     "@types/react": "^18.0.37",
