@@ -1,18 +1,24 @@
 {
   "name": "mastering-react",
-  "description": "Udemy course to learn web devolpment with React",
+  "description": "Udemy course: web-dev with React",
   "private": true,
-  "version": "0.0.7",
+  "version": "0.1.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "watch-errors": "tsc --watch",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest",
+    "test:ci": "vitest run",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest run --coverage",
     "storybook": "start-storybook -p 6006",
     "storybook:node18": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
+    "check-deps": "npx npm-check"
   },
   "dependencies": {
     "@rematch/core": "^2.2.0",
