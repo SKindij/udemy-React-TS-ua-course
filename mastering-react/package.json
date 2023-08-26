@@ -2,7 +2,7 @@
   "name": "mastering-react",
   "description": "Udemy course: web-dev with React",
   "private": true,
-  "version": "0.4.6",
+  "version": "0.4.8",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -54,6 +54,7 @@
     "eslint": "^8.38.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
+    "gh-pages": "^6.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-tsconfig-paths": "^4.2.0",
