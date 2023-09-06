@@ -2,7 +2,7 @@
   "name": "mastering-react",
   "description": "Udemy course: web-dev with React",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.6.4",
   "type": "module",
   "scripts": {
     "dev": "vite",
